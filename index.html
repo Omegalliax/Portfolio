@@ -13,7 +13,7 @@
 
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -438,9 +438,9 @@
             <span class="section__subtitle">Meus clientes falam</span>
             <h2 class="section__title">Depoimento</h2>
 
-            <div class="testimonial__container container">
-                <div>
-                    <div class="testimonial__card">
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
                         <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
 
                         <h3 class="testimonial__name">Jhon Doe</h3>
@@ -449,7 +449,7 @@
                             with good results.
                         </p>
                     </div>
-                    <div class="testimonial__card">
+                    <div class="testimonial__card swiper-slide">
                         <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
 
                         <h3 class="testimonial__name">Paula Vusy</h3>
@@ -458,7 +458,7 @@
                             with good results.
                         </p>
                     </div>
-                    <div class="testimonial__card">
+                    <div class="testimonial__card swiper-slide">
                         <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
 
                         <h3 class="testimonial__name">Sara Cill</h3>
@@ -468,12 +468,31 @@
                         </p>
                     </div>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
 
         <!--=============== CONTACT ===============-->
         <section class="contact section" id="contact">
+            <span class="section__subtitle">Entre em contato</span>
+            <h2 class="section__title">Me contate</h2>
 
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Fale comigo</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">vitoreliel2011@hotmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__content">
+
+                </div>
+            </div>
         </section>
     </main>
 
